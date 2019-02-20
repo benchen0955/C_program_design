@@ -93,3 +93,22 @@ value 欲轉換浮點數
 digits 轉換有效位數
 *buffer 儲存字串處
 
+函數位址的傳送
+指標方式傳遞位址
+int swap(int *x,int *y)  //呼方式是swap(&i,&j);
+{
+  int temp;
+  temp=*x;
+  *x=*y;
+  *y=temp;  
+}
+
+位址傳遞方式
+int swap(int &x,int &y)  //呼方式是swap(i,j);
+{
+  int temp;
+  temp=x;
+  x=y;
+  y=temp;  
+}
+
