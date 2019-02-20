@@ -92,3 +92,4 @@ char *gcvt(double value, int digits, char *buffer);
 value 欲轉換浮點數
 digits 轉換有效位數
 *buffer 儲存字串處
+
